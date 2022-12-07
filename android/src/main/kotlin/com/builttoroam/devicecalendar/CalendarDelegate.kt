@@ -130,6 +130,9 @@ class CalendarDelegate(binding: ActivityPluginBinding?, context: Context) :
                 DELETE_CALENDAR_REQUEST_CODE -> {
                     deleteCalendar(cachedValues.calendarId, cachedValues.pendingChannelResult)
                 }
+                else -> {
+
+                }
             }
 
             return true
